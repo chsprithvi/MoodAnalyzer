@@ -4,7 +4,7 @@ public class MoodAnalyzer {
 
     private String message;
 
-    //MoodAnalyzer(){}
+    MoodAnalyzer(){}
 
     MoodAnalyzer(String message){
         this.message = message;
