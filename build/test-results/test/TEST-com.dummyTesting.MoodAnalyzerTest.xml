@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.dummyTesting.MoodAnalyzerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-22T06:51:10" hostname="cspr" time="0.001">
+<testsuite name="com.dummyTesting.MoodAnalyzerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-22T07:40:15" hostname="cspr" time="0.003">
   <properties/>
-  <testcase name="GivenMessage_WhenNotSad_ReturnHappy" classname="com.dummyTesting.MoodAnalyzerTest" time="0.001"/>
-  <testcase name="GivenMessage_WhenSad_ReturnSad" classname="com.dummyTesting.MoodAnalyzerTest" time="0.0"/>
+  <testcase name="givenMessage_whenSad_ShouldReturnSad" classname="com.dummyTesting.MoodAnalyzerTest" time="0.002"/>
+  <testcase name="givenMessage_WhenNull_shouldReturnHappyMood" classname="com.dummyTesting.MoodAnalyzerTest" time="0.0"/>
+  <testcase name="givenMessage_whenNotSad_shouldReturnHappy" classname="com.dummyTesting.MoodAnalyzerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
